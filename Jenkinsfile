@@ -16,7 +16,7 @@ pipeline {
             steps {
                 // *** FIX: Explicitly specify the branch ***
                 git branch: 'main', 
-                    url: 'https://github.com/Nihal106/sonarqube-demo.git'
+                    url: 'https://github.com/sreeharimm-git/sonarqube-demo.git'
             }
         }
 
@@ -33,7 +33,7 @@ pipeline {
                     sh '''
                     # Using the Maven sonar plugin for analysis
                     mvn sonar:sonar \
-                    -Dsonar.projectKey=jenkins-java-demo
+                    -Dsonar.projectKey=jenkins-java-name
                     '''
                 }
             }
