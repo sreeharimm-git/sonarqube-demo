@@ -21,7 +21,7 @@
         <maven.compiler.release>21</maven.compiler.release>
 
         <!-- SonarQube project configuration -->
-        <sonar.projectKey>jenkins-java-demo</sonar.projectKey>
+        <sonar.projectKey>jenkins-java-name</sonar.projectKey>
         <sonar.projectName>Jenkins Java Demo</sonar.projectName>
     </properties>
 
